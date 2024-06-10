@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the container take up the full viewport height */
+}
+.todoApp-container {
+  height: 400px;
+  width: 500px;
+  background-color: rgb(132, 132, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 10 px solid #181717; /* Optional: add a border for better visualization */
+}
+
+.row-space {
+  margin: 5px;
+}
